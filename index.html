@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="/tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Flower Shop</title>
 </head>
 
@@ -14,19 +15,22 @@
     <!-- Navigation -->
     <nav class="flex justify-between mt-[4%] ml-[8%] mr-[8%] mb-[4%] items-center">
 
-        <img src="assets/logo.png">
+        <img class="w-[63px] h-[38px] md:w-fit md:h-fit" src="assets/logo.png">
 
         <ul class="flex gap-12.5">
             <li class="font-bold text-black text-[16px] hidden md:block">Home</li>
             <li class="font-light text-[#00000050] text-[15px] hidden md:block">Shop</li>
             <li class="font-light text-[#00000050] text-[15px] hidden md:block">About Us</li>
+            <div class="flex justify-center items-end">
+            <i class="fa fa-shopping-cart pr-3" style="font-size: 24px;"></i>
             <li class="font-normal text-black text-[15px]">Cart ($56)</li>
+            </div>
         </ul>
     </nav>
 
     <!-- Hero -->
     <section class="md:flex mt-[18% mb-[4%]">
-        <img class="block ml-[8%] mr-0 md:hidden mb-8 md:mr-[8%]" src="assets/hero-flower.png">
+        <img class="block ml-[8%] mr-0 md:hidden mb-8 md:mr-[8%] h-fit w-fit " src="assets/hero-flower.png">
         <div class="self-end ml-[8%] mr-[8%]">
             <p class="mb-2 md:mb-4">
                 <span class="text-3xl md:text-6xl font-bold text-black mr-3">ALWAYS</span>
@@ -178,19 +182,19 @@
         </div>
 
         <div class="flex flex-col gap-5 md:mr-[10%] mt-2.5 md:mt-0">
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Blog</p>
-            <p>FAQ</p>
-            <p>Contact Us</p>
+            <p class="text-gray-500">Home</p>
+            <p class="text-gray-500">About Us</p>
+            <p class="text-gray-500">Blog</p>
+            <p class="text-gray-500">FAQ</p>
+            <p class="text-gray-500">Contact Us</p>
         </div>
 
         <div class="flex flex-col gap-5 md:mr-[10%] mt-4 md:mt-0">
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>Privacy Policy</p>
-            <p>Terms of Service</p>
-            <p>Help Center</p>
+            <p class="text-gray-500">Features</p>
+            <p class="text-gray-500">Pricing</p>
+            <p class="text-gray-500">Privacy Policy</p>
+            <p class="text-gray-500">Terms of Service</p>
+            <p class="text-gray-500">Help Center</p>
         </div>
 
         <div class="flex gap-4 h-fit w-fit mt-6 md:mt-0">
